@@ -23,15 +23,6 @@ class User extends Authenticatable
         'fullname',
         'total_paga',
     ];
-
-    /**
-     * The attributes that should be cast.
-     *
-     * @var array<string, string>
-     */
-    protected $casts = [
-        'email_verified_at' => 'datetime',
-    ];
     
     /**
      * Get the working days of the user.
